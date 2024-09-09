@@ -1,0 +1,43 @@
+
+    $primary-color: #333;
+    $secondary-color: #f4f4f4;
+    $text-color: black;
+    $padding: 20px;
+    $highlight-color: rgb(94, 94, 149);
+
+
+/*Базовые стили для всей страницы*/
+
+.page__about {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+}
+
+
+/*Стили для шапки*/
+.header {
+    background-color: $secondary-color;
+    padding: $padding;
+   
+    &__title{
+        margin: 0;
+    }
+&__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+&__link {
+    text-decoration: none;
+    color: $text-color;
+}
+
+&:hover {
+    color: blue;
+}
+
+}
